@@ -1,0 +1,38 @@
+{
+  "name": "@crxzcode/browser",
+  "version": "2.1.0",
+  "description": "Drop-in puppeteer-real-browser replacement — rebrowser patches, ghost-cursor, Turnstile solver, stealth fingerprint, no xvfb-run needed",
+  "main": "src/index.js",
+  "bin": {
+    "crzcode-browser": "src/cli.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "puppeteer-real-browser",
+    "stealth",
+    "anti-detection",
+    "captcha",
+    "bypass",
+    "rebrowser",
+    "cloudflare",
+    "turnstile",
+    "ghost-cursor"
+  ],
+  "author": "fidzzcodex-me",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidzzcodex-me/crzcode-browser.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "rebrowser-puppeteer-core": "^24.8.1",
+    "chrome-launcher": "^1.1.2",
+    "ghost-cursor": "^1.3.0",
+    "tree-kill": "^1.2.2",
+    "virtual-display-linux": "^1.0.4",
+    "puppeteer-extra": "^3.3.6"
+  }
+}
